@@ -222,7 +222,7 @@
           },
           {
             "target": "client_id",
-            "originalString": "86128710",
+            "originalString": "\"86128710\"",
             "functionTree": {
               "type": "Program",
               "body": [
@@ -230,8 +230,8 @@
                   "type": "ExpressionStatement",
                   "expression": {
                     "type": "Literal",
-                    "value": 86128710,
-                    "raw": "86128710",
+                    "value": "86128710",
+                      "raw": "\"86128710\"",
                     "range": [
                       0,
                       8
@@ -280,8 +280,8 @@
               },
               "tokens": [
                 {
-                  "type": "Numeric",
-                  "value": "86128710",
+                  "type": "String",
+                  "value": "\"86128710\"",
                   "range": [
                     0,
                     8
@@ -453,7 +453,7 @@
           },
           {
             "target": "client_id",
-            "originalString": "86128710",
+            "originalString": "\"86128710\"",
             "functionTree": {
               "type": "Program",
               "body": [
@@ -461,8 +461,8 @@
                   "type": "ExpressionStatement",
                   "expression": {
                     "type": "Literal",
-                    "value": 86128710,
-                    "raw": "86128710",
+                    "value": "86128710",
+                    "raw": "\"86128710\"",
                     "range": [
                       0,
                       8
@@ -511,8 +511,8 @@
               },
               "tokens": [
                 {
-                  "type": "Numeric",
-                  "value": "86128710",
+                  "type": "String",
+                  "value": "\"86128710\"",
                   "range": [
                     0,
                     8
@@ -684,7 +684,7 @@
           },
           {
             "target": "client_id",
-            "originalString": "86128710",
+            "originalString": "\"86128710\"",
             "functionTree": {
               "type": "Program",
               "body": [
@@ -692,8 +692,8 @@
                   "type": "ExpressionStatement",
                   "expression": {
                     "type": "Literal",
-                    "value": 86128710,
-                    "raw": "86128710",
+                    "value": "86128710",
+                    "raw": "\"86128710\"",
                     "range": [
                       0,
                       8
@@ -742,8 +742,8 @@
               },
               "tokens": [
                 {
-                  "type": "Numeric",
-                  "value": "86128710",
+                  "type": "String",
+                  "value": "\"86128710\"",
                   "range": [
                     0,
                     8
@@ -915,7 +915,7 @@
           },
           {
             "target": "client_id",
-            "originalString": "86128710",
+            "originalString": "\"86128710\"",
             "functionTree": {
               "type": "Program",
               "body": [
@@ -923,8 +923,8 @@
                   "type": "ExpressionStatement",
                   "expression": {
                     "type": "Literal",
-                    "value": 86128710,
-                    "raw": "86128710",
+                    "value": "86128710",
+                    "raw": "\"86128710\"",
                     "range": [
                       0,
                       8
@@ -973,8 +973,8 @@
               },
               "tokens": [
                 {
-                  "type": "Numeric",
-                  "value": "86128710",
+                  "type": "String",
+                  "value": "\"86128710\"",
                   "range": [
                     0,
                     8
