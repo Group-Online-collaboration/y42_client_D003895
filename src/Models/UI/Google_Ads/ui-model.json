@@ -1102,13 +1102,13 @@
             {
               "target": "client_id",
               "source": "client_id",
-              "type": "NUMERIC",
+              "type": "STRING",
               "display": true,
               "changed": false,
               "description": "",
               "source_alias": "",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             }
           ]
         }
@@ -1241,13 +1241,13 @@
             {
               "target": "client_id",
               "source": "client_id",
-              "type": "NUMERIC",
+              "type": "STRING",
               "display": true,
               "changed": false,
               "description": "",
               "source_alias": "",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             }
           ]
         }
@@ -1413,13 +1413,13 @@
             {
               "target": "client_id",
               "source": "client_id",
-              "type": "NUMERIC",
+              "type": "STRING",
               "display": true,
               "changed": false,
               "description": "",
               "source_alias": "",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             }
           ]
         }
@@ -1519,13 +1519,13 @@
             {
               "target": "client_id",
               "source": "client_id",
-              "type": "NUMERIC",
+              "type": "STRING",
               "display": true,
               "changed": false,
               "description": "",
               "source_alias": "",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             }
           ]
         }
