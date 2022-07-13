@@ -1,0 +1,51 @@
+{
+  "request_id": "220713084120_ddc176a7-f228-5023-9062-b0de3229266a",
+  "status": "pending",
+  "request": {
+    "source_credentials": "a266c365-32ac-4e72-84b8-7738f6318670",
+    "target_credentials": "42496991-100f-469a-87d0-4175f023bd63",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/google-search-console/0.0.0/source.json",
+      "start_date": "2022-01-01T00:00:00Z",
+      "parent_id": "https://inteka.dk/"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/google-search-console/0.0.0/table",
+      "columns": [
+        "site_url",
+        "search_type",
+        "date",
+        "device",
+        "clicks",
+        "impressions",
+        "ctr",
+        "position"
+      ],
+      "import": "performance_report_device"
+    },
+    "created_at": "2022-07-13T08:41:20.106113+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/Google_Search_Console/performance_report_device/",
+        "id": "5:24c01b17-785a-4dbb-a0b0-3b18f98e5455",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "25917863",
+        "owner": "Group-Online-collaboration",
+        "repo": "y42_client_D003895",
+        "commit_sha": "fe4b0adf320e1df22a077952e95fdc37ffc847e3"
+      }
+    },
+    "context": {
+      "company_id": 5,
+      "company_slug": "grouponline",
+      "triggered_by_type": "user",
+      "triggered_by_id": "25",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-13T08:41:20.106113+00:00",
+  "_signature": "MUJlyp0849J7tNf3MlWaeET5PEdiDgsDRvvf+TcJziVP+s+x2AQ9k83EQO+yj7HPCeeYkkljOA6vHD/6IOcPBg=="
+}
