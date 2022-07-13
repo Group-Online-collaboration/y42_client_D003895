@@ -1,0 +1,52 @@
+{
+  "request_id": "220713083447_fab467f0-1983-59d6-a58a-0add8534994a",
+  "status": "pending",
+  "request": {
+    "source_credentials": "b954760c-e2d2-49f4-b200-d22e0da29a18",
+    "target_credentials": "42496991-100f-469a-87d0-4175f023bd63",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/google-ads/0.0.0/source.json",
+      "start_date": "2022-01-01T00:00:00Z",
+      "parent_id": "customers/1209542642/customerClients/1805925190"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/google-ads/0.0.0/table",
+      "columns": [
+        "advertising_channel_sub_type",
+        "advertising_channel_type",
+        "bidding_strategy",
+        "bidding_strategy_type",
+        "campaign_budget",
+        "id",
+        "name",
+        "resource_name",
+        "status"
+      ],
+      "import": "campaign"
+    },
+    "created_at": "2022-07-13T08:34:47.249399+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/Google_Ads/campaign/",
+        "id": "5:24c01b17-785a-4dbb-a0b0-3b18f98e5455",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "25917863",
+        "owner": "Group-Online-collaboration",
+        "repo": "y42_client_D003895",
+        "commit_sha": "10714a5b2a7ea025253274993cfd51e966f0dacd"
+      }
+    },
+    "context": {
+      "company_id": 5,
+      "company_slug": "grouponline",
+      "triggered_by_type": "user",
+      "triggered_by_id": "25",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-13T08:34:47.249399+00:00",
+  "_signature": "CRoTeu9MtW3j4AxuAenS+09Xv3XQLh2TWWTz9PibPSC7OfoY6+2lQxyfGUeBs+a6V905bXpky41cBtbsuD+GAw=="
+}
