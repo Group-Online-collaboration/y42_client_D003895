@@ -1,6 +1,6 @@
 {
   "request_id": "220713084016_d32bff59-9609-5565-9e5b-d1bcb4ea6e1c",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "source_credentials": "0a76ad5b-0a4b-4de6-be42-b086f186bb21",
     "target_credentials": "42496991-100f-469a-87d0-4175f023bd63",
@@ -56,5 +56,8 @@
     }
   },
   "created_at": "2022-07-13T08:40:16.476204+00:00",
-  "_signature": "j+1BeJj+dAOIulo97BPN29DPnsmQRxp36+euSWK3pytwSX9Pirjka9rzbd73g6xp4w6IWfUKxiN2kEKMQm0+DQ=="
+  "failed_at": "2022-07-13T08:40:31.071714+00:00",
+  "error_code": 403,
+  "error_message": "WARNING request failed with 'User does not have sufficient permissions for this profile.', will retryCRITICAL Received fatal error <HttpError 403 when requesting https://analyticsreporting.googleapis.com/v4/reports:batchGet?alt=json returned \"User does not have sufficient permissions for this profile.\">, reason=forbidden, status=403\nERROR Giving up query_api(...) after 1 tries (googleapiclient.errors.HttpError: <HttpError 403 when requesting https://analyticsreporting.googleapis.com/v4/reports:batchGet?alt=json returned \"User does not have sufficient permissions for this profile.\">)\nERROR Stopping execution while processing 'campaign_adcontent_performance_v2' due to Unknown Errors.\n",
+  "_signature": "hq9a8rlsIPT8/USadNeXvEDTcXzPn7/j8SJPGdTegRcIvBp+7fJujvByo4yGh2+dRtHOjmTBVcOUZoevQDhbAQ=="
 }
