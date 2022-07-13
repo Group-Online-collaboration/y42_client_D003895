@@ -1,6 +1,6 @@
 {
   "request_id": "220713083945_4282471f-37f1-586e-8697-0ddcd9cae11f",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "42496991-100f-469a-87d0-4175f023bd63",
     "source_settings": {
@@ -34,5 +34,58 @@
     }
   },
   "created_at": "2022-07-13T08:39:45.340869+00:00",
-  "_signature": "8+5aarjImZK2hzHa5rFvEU07V92xkRrj78tDOjNV7IP0dfRPx8U+GjVAmvJ6aQxU94XHDiL6SKGWd0pSHp19Bw=="
+  "finished_at": "2022-07-13T08:40:22.357500+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-13T08:40:22.357329+00:00",
+    "row_count": 1,
+    "current_import_row_count": 1,
+    "size_in_bytes": 3072,
+    "external_id": "01a59348-0101-52be-0001-2c9200a81d3e",
+    "columns": [
+      {
+        "field_name": "descriptive_name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "resource_name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "client_id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "status",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "loaded_at",
+        "data_type": "TIMESTAMP_LTZ",
+        "external_data_type": "TIMESTAMP_LTZ"
+      },
+      {
+        "field_name": "currency_code",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "time_zone",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "test_account",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      }
+    ],
+    "table_name": "220713083945_4282471f-37f1-586e-8697-0ddcd9cae11f",
+    "external_url": "https://leailmf-bb09357.snowflakecomputing.com/console#/data/tables/detail?databaseName=Y42_DATA&schemaName=PUBLIC&tableName=220713083945_4282471f-37f1-586e-8697-0ddcd9cae11f"
+  },
+  "_signature": "Fzy8cYfI7MWBD41v9WFWDn7C17/rZ8vxBqL+3cDIAHQ6fy3/h0IYS84mjNlbVSTyt34aGDF2HUEl+4OXWgBCBQ=="
 }
