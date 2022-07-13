@@ -1,6 +1,6 @@
 {
   "request_id": "220713083640_36cd2273-0a90-5b7c-a7e2-8dbba596a3a2",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "437b488d-315c-4b81-b39e-a0eeb1fd35a8",
     "target_credentials": "42496991-100f-469a-87d0-4175f023bd63",
@@ -54,7 +54,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a59345-0101-52be-0001-2c9200a819a2",
     "storage_file": "azure://y42snowflake.blob.core.windows.net/y42-container/userUploads/v2/tap-google-ads/79160f35-ad1c-4c85-b05f-1df01de3217b",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-13T08:37:34.419339+00:00",
+    "row_count": 1,
+    "current_import_row_count": 1,
+    "size_in_bytes": 2560,
+    "columns": [
+      {
+        "field_name": "descriptive_name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "status",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "test_account",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "time_zone",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "resource_name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "currency_code",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220713083640_36cd2273-0a90-5b7c-a7e2-8dbba596a3a2",
+    "external_url": "https://leailmf-bb09357.snowflakecomputing.com/console#/data/tables/detail?databaseName=Y42_DATA&schemaName=PUBLIC&tableName=220713083640_36cd2273-0a90-5b7c-a7e2-8dbba596a3a2"
   },
-  "_signature": "hLsdNnw60FZ2d5GSZ4Le98sHDuY8k79BPTRtCJMN3tMFHcH3oIAJ0BIdSaRULQhjRZEmsJ73CE67ClyveLipBA=="
+  "finished_at": "2022-07-13T08:37:34.419481+00:00",
+  "_signature": "zg+bt9HZCHd7MdHFZsh2yhwsqX2kOnZNXeHWtRAs3R9M+/zpo1+/BpYZiDbxM9VP/mc2OS8TfOrB/D8XIH+CCw=="
 }
