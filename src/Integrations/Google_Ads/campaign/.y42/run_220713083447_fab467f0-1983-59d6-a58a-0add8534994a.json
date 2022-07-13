@@ -1,6 +1,6 @@
 {
   "request_id": "220713083447_fab467f0-1983-59d6-a58a-0add8534994a",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "b954760c-e2d2-49f4-b200-d22e0da29a18",
     "target_credentials": "42496991-100f-469a-87d0-4175f023bd63",
@@ -57,7 +57,61 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a59343-0101-52be-0001-2c9200a811c2",
     "storage_file": "azure://y42snowflake.blob.core.windows.net/y42-container/userUploads/v2/tap-google-ads/014f5dda-99cb-483b-88f9-8a10f47b334f",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-13T08:35:52.049507+00:00",
+    "row_count": 5,
+    "current_import_row_count": 5,
+    "size_in_bytes": 3072,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "campaign_budget",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "resource_name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "advertising_channel_sub_type",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "bidding_strategy",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "advertising_channel_type",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "status",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "bidding_strategy_type",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220713083447_fab467f0-1983-59d6-a58a-0add8534994a",
+    "external_url": "https://leailmf-bb09357.snowflakecomputing.com/console#/data/tables/detail?databaseName=Y42_DATA&schemaName=PUBLIC&tableName=220713083447_fab467f0-1983-59d6-a58a-0add8534994a"
   },
-  "_signature": "81hxHqOAkKFonezeqAFHC4/yHOw7qHMBPGvBvOoh+YpilliObVecGx/QpICTBqU3TwoR5F4S0A1Al+uMkQcMBA=="
+  "finished_at": "2022-07-13T08:35:52.049769+00:00",
+  "_signature": "3icaqfrHZj6lehvjD9uNVbVXbBjw9LyiwAe1WeWRGWlBg3A3eq4uC1odDcuVU4eSKDS/QYVAdfCip6MZaJHsBg=="
 }
