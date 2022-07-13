@@ -1,0 +1,57 @@
+{
+  "request_id": "220713084017_832aa00b-6a5b-5e8a-b788-a9e4707a4626",
+  "status": "pending",
+  "request": {
+    "source_credentials": "0a76ad5b-0a4b-4de6-be42-b086f186bb21",
+    "target_credentials": "42496991-100f-469a-87d0-4175f023bd63",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/google-analytics/0.0.0/source.json",
+      "start_date": "2022-01-01T00:00:00Z",
+      "parent_id": "199938074"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/google-analytics/0.0.0/table",
+      "columns": [
+        "ga_date",
+        "ga_channelGrouping",
+        "ga_source",
+        "ga_medium",
+        "ga_campaign",
+        "ga_country",
+        "ga_goal1Completions",
+        "ga_goal2Completions",
+        "ga_goal3Completions",
+        "ga_goal4Completions",
+        "ga_goal5Completions",
+        "ga_goalCompletionsAll",
+        "report_start_date",
+        "report_end_date"
+      ],
+      "import": "goal_conversions"
+    },
+    "created_at": "2022-07-13T08:40:17.695602+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/G_Analytics/goal_conversions/",
+        "id": "5:24c01b17-785a-4dbb-a0b0-3b18f98e5455",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "25917863",
+        "owner": "Group-Online-collaboration",
+        "repo": "y42_client_D003895",
+        "commit_sha": "584780afa508e921dd55cd8a2c18a1e8f6f5f523"
+      }
+    },
+    "context": {
+      "company_id": 5,
+      "company_slug": "grouponline",
+      "triggered_by_type": "user",
+      "triggered_by_id": "25",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-13T08:40:17.695602+00:00",
+  "_signature": "fZ3V1PL5LWzzNxK5n0Kd3QPdKGa/xWIpKhLpium6llVo5UjBjTKIIlqJxHIBpx7kEJwVzMLuzzYyhB24wMSXCw=="
+}
