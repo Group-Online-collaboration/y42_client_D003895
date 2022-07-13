@@ -1,1573 +1,1573 @@
 {
-  "nodeDataArray": [
-    {
-      "key": "6746876b-e56c-4b26-920f-b630f1432b02",
-      "type": "INPUT",
-      "category": "INPUT",
-      "transformationStep": {
-        "id": "6746876b-e56c-4b26-920f-b630f1432b02",
-        "title": "y42_google_ads_ad_group_ad_report_conversion_metrics",
-        "transformationType": "INPUT",
-        "datasourceName": "Google Ads - Conversion Metrics",
-        "transformObject": {
-          "source": "src/Integrations/Google_Ads___Conversion_Metrics",
-          "table": "src/Integrations/Google_Ads___Conversion_Metrics/ad_group_ad_report",
-          "lang": ""
-        }
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "-277 -264"
-    },
-    {
-      "key": "c3ab184b-cf3e-48ae-9cd7-22d2862a30fa",
-      "type": "INPUT",
-      "category": "INPUT",
-      "transformationStep": {
-        "id": "c3ab184b-cf3e-48ae-9cd7-22d2862a30fa",
-        "title": "y42_google_ads_campaign",
-        "transformationType": "INPUT",
-        "datasourceName": "Google Ads - Campaign",
-        "transformObject": {
-          "source": "src/Integrations/Google_Ads",
-          "table": "src/Integrations/Google_Ads/campaign",
-          "lang": ""
-        }
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "-284 -73"
-    },
-    {
-      "key": "c5104bed-cc95-4798-9ab3-d07022d584de",
-      "type": "INPUT",
-      "category": "INPUT",
-      "transformationStep": {
-        "id": "c5104bed-cc95-4798-9ab3-d07022d584de",
-        "title": "y42_google_ads_ad_metrics",
-        "transformationType": "INPUT",
-        "datasourceName": "Google Ads - Ad Metrics",
-        "transformObject": {
-          "source": "src/Integrations/Google_Ads___Ad_Metrics",
-          "table": "src/Integrations/Google_Ads___Ad_Metrics/ad_group_ad_report",
-          "lang": ""
-        }
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "-287 126"
-    },
-    {
-      "key": "51a8d007-186f-459e-9cab-ff317a9f915b",
-      "type": "INPUT",
-      "category": "INPUT",
-      "transformationStep": {
-        "id": "51a8d007-186f-459e-9cab-ff317a9f915b",
-        "title": "y42_google_ads_customer_client_ad_metrics",
-        "transformationType": "INPUT",
-        "datasourceName": "Google Ads - Ad Metrics",
-        "transformObject": {
-          "source": "src/Integrations/Google_Ads___Ad_Metrics",
-          "table": "src/Integrations/Google_Ads___Ad_Metrics/customer_client",
-          "lang": ""
-        }
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "-287 300"
-    },
-    {
-      "key": "a988322b-d822-4692-acf1-a4925ac0b357",
-      "type": "FUNCTIONS",
-      "category": "FUNCTIONS",
-      "transformationStep": {
-        "id": "a988322b-d822-4692-acf1-a4925ac0b357",
-        "title": "",
-        "transformationType": "FUNCTIONS",
-        "transformObject": [
-          {
-            "target": "loaded_at",
-            "originalString": "CURRENT_DATETIME()",
-            "functionTree": {
-              "type": "Program",
-              "body": [
-                {
-                  "type": "ExpressionStatement",
-                  "expression": {
-                    "type": "CallExpression",
-                    "callee": {
-                      "type": "Identifier",
-                      "name": "CURRENT_DATETIME",
-                      "range": [
-                        0,
-                        16
-                      ],
-                      "loc": {
-                        "start": {
-                          "line": 1,
-                          "column": 0
-                        },
-                        "end": {
-                          "line": 1,
-                          "column": 16
+    "nodeDataArray": [
+        {
+            "key": "6746876b-e56c-4b26-920f-b630f1432b02",
+            "type": "INPUT",
+            "category": "INPUT",
+            "transformationStep": {
+                "id": "6746876b-e56c-4b26-920f-b630f1432b02",
+                "title": "y42_google_ads_ad_group_ad_report_conversion_metrics",
+                "transformationType": "INPUT",
+                "datasourceName": "Google Ads - Conversion Metrics",
+                "transformObject": {
+                    "source": "src/Integrations/Google_Ads___Conversion_Metrics",
+                    "table": "src/Integrations/Google_Ads___Conversion_Metrics/ad_group_ad_report",
+                    "lang": ""
+                }
+            },
+            "isGroup": true,
+            "group": "",
+            "location": "-277 -264"
+        },
+        {
+            "key": "c3ab184b-cf3e-48ae-9cd7-22d2862a30fa",
+            "type": "INPUT",
+            "category": "INPUT",
+            "transformationStep": {
+                "id": "c3ab184b-cf3e-48ae-9cd7-22d2862a30fa",
+                "title": "y42_google_ads_campaign",
+                "transformationType": "INPUT",
+                "datasourceName": "Google Ads - Campaign",
+                "transformObject": {
+                    "source": "src/Integrations/Google_Ads",
+                    "table": "src/Integrations/Google_Ads/campaign",
+                    "lang": ""
+                }
+            },
+            "isGroup": true,
+            "group": "",
+            "location": "-284 -73"
+        },
+        {
+            "key": "c5104bed-cc95-4798-9ab3-d07022d584de",
+            "type": "INPUT",
+            "category": "INPUT",
+            "transformationStep": {
+                "id": "c5104bed-cc95-4798-9ab3-d07022d584de",
+                "title": "y42_google_ads_ad_metrics",
+                "transformationType": "INPUT",
+                "datasourceName": "Google Ads - Ad Metrics",
+                "transformObject": {
+                    "source": "src/Integrations/Google_Ads___Ad_Metrics",
+                    "table": "src/Integrations/Google_Ads___Ad_Metrics/ad_group_ad_report",
+                    "lang": ""
+                }
+            },
+            "isGroup": true,
+            "group": "",
+            "location": "-287 126"
+        },
+        {
+            "key": "51a8d007-186f-459e-9cab-ff317a9f915b",
+            "type": "INPUT",
+            "category": "INPUT",
+            "transformationStep": {
+                "id": "51a8d007-186f-459e-9cab-ff317a9f915b",
+                "title": "y42_google_ads_customer_client_ad_metrics",
+                "transformationType": "INPUT",
+                "datasourceName": "Google Ads - Ad Metrics",
+                "transformObject": {
+                    "source": "src/Integrations/Google_Ads___Ad_Metrics",
+                    "table": "src/Integrations/Google_Ads___Ad_Metrics/customer_client",
+                    "lang": ""
+                }
+            },
+            "isGroup": true,
+            "group": "",
+            "location": "-287 300"
+        },
+        {
+            "key": "a988322b-d822-4692-acf1-a4925ac0b357",
+            "type": "FUNCTIONS",
+            "category": "FUNCTIONS",
+            "transformationStep": {
+                "id": "a988322b-d822-4692-acf1-a4925ac0b357",
+                "title": "",
+                "transformationType": "FUNCTIONS",
+                "transformObject": [
+                    {
+                        "target": "loaded_at",
+                        "originalString": "CURRENT_DATETIME()",
+                        "functionTree": {
+                            "type": "Program",
+                            "body": [
+                                {
+                                    "type": "ExpressionStatement",
+                                    "expression": {
+                                        "type": "CallExpression",
+                                        "callee": {
+                                            "type": "Identifier",
+                                            "name": "CURRENT_DATETIME",
+                                            "range": [
+                                                0,
+                                                16
+                                            ],
+                                            "loc": {
+                                                "start": {
+                                                    "line": 1,
+                                                    "column": 0
+                                                },
+                                                "end": {
+                                                    "line": 1,
+                                                    "column": 16
+                                                }
+                                            }
+                                        },
+                                        "arguments": [],
+                                        "optional": false,
+                                        "range": [
+                                            0,
+                                            18
+                                        ],
+                                        "loc": {
+                                            "start": {
+                                                "line": 1,
+                                                "column": 0
+                                            },
+                                            "end": {
+                                                "line": 1,
+                                                "column": 18
+                                            }
+                                        }
+                                    },
+                                    "range": [
+                                        0,
+                                        18
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 0
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 18
+                                        }
+                                    }
+                                }
+                            ],
+                            "sourceType": "script",
+                            "range": [
+                                0,
+                                18
+                            ],
+                            "loc": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 18
+                                }
+                            },
+                            "tokens": [
+                                {
+                                    "type": "Identifier",
+                                    "value": "CURRENT_DATETIME",
+                                    "range": [
+                                        0,
+                                        16
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 0
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 16
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "Punctuator",
+                                    "value": "(",
+                                    "range": [
+                                        16,
+                                        17
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 16
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 17
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "Punctuator",
+                                    "value": ")",
+                                    "range": [
+                                        17,
+                                        18
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 17
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 18
+                                        }
+                                    }
+                                }
+                            ],
+                            "comments": []
                         }
-                      }
                     },
-                    "arguments": [],
-                    "optional": false,
-                    "range": [
-                      0,
-                      18
-                    ],
-                    "loc": {
-                      "start": {
-                        "line": 1,
-                        "column": 0
-                      },
-                      "end": {
-                        "line": 1,
-                        "column": 18
-                      }
-                    }
-                  },
-                  "range": [
-                    0,
-                    18
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 0
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 18
-                    }
-                  }
-                }
-              ],
-              "sourceType": "script",
-              "range": [
-                0,
-                18
-              ],
-              "loc": {
-                "start": {
-                  "line": 1,
-                  "column": 0
-                },
-                "end": {
-                  "line": 1,
-                  "column": 18
-                }
-              },
-              "tokens": [
-                {
-                  "type": "Identifier",
-                  "value": "CURRENT_DATETIME",
-                  "range": [
-                    0,
-                    16
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 0
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 16
-                    }
-                  }
-                },
-                {
-                  "type": "Punctuator",
-                  "value": "(",
-                  "range": [
-                    16,
-                    17
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 16
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 17
-                    }
-                  }
-                },
-                {
-                  "type": "Punctuator",
-                  "value": ")",
-                  "range": [
-                    17,
-                    18
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 17
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 18
-                    }
-                  }
-                }
-              ],
-              "comments": []
-            }
-          },
-          {
-            "target": "client_id",
-            "originalString": "\"86128710\"",
-            "functionTree": {
-              "type": "Program",
-              "body": [
-                {
-                  "type": "ExpressionStatement",
-                  "expression": {
-                    "type": "Literal",
-                    "value": "86128710",
-                      "raw": "\"86128710\"",
-                    "range": [
-                      0,
-                      8
-                    ],
-                    "loc": {
-                      "start": {
-                        "line": 1,
-                        "column": 0
-                      },
-                      "end": {
-                        "line": 1,
-                        "column": 8
-                      }
-                    }
-                  },
-                  "range": [
-                    0,
-                    8
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 0
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 8
-                    }
-                  }
-                }
-              ],
-              "sourceType": "script",
-              "range": [
-                0,
-                8
-              ],
-              "loc": {
-                "start": {
-                  "line": 1,
-                  "column": 0
-                },
-                "end": {
-                  "line": 1,
-                  "column": 8
-                }
-              },
-              "tokens": [
-                {
-                  "type": "String",
-                  "value": "\"86128710\"",
-                  "range": [
-                    0,
-                    8
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 0
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 8
-                    }
-                  }
-                }
-              ],
-              "comments": []
-            }
-          }
-        ]
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "37.17647058823525 -263.18367346938777"
-    },
-    {
-      "key": "2fec13d9-827d-414a-98ee-5499c85e9469",
-      "type": "FUNCTIONS",
-      "category": "FUNCTIONS",
-      "transformationStep": {
-        "id": "2fec13d9-827d-414a-98ee-5499c85e9469",
-        "title": "",
-        "transformationType": "FUNCTIONS",
-        "transformObject": [
-          {
-            "target": "loaded_at",
-            "originalString": "CURRENT_DATETIME()",
-            "functionTree": {
-              "type": "Program",
-              "body": [
-                {
-                  "type": "ExpressionStatement",
-                  "expression": {
-                    "type": "CallExpression",
-                    "callee": {
-                      "type": "Identifier",
-                      "name": "CURRENT_DATETIME",
-                      "range": [
-                        0,
-                        16
-                      ],
-                      "loc": {
-                        "start": {
-                          "line": 1,
-                          "column": 0
-                        },
-                        "end": {
-                          "line": 1,
-                          "column": 16
+                    {
+                        "target": "client_id",
+                        "originalString": "\"D003895\"",
+                        "functionTree": {
+                            "type": "Program",
+                            "body": [
+                                {
+                                    "type": "ExpressionStatement",
+                                    "expression": {
+                                        "type": "Literal",
+                                        "value": "D003895",
+                                        "raw": "\"D003895\"",
+                                        "range": [
+                                            0,
+                                            8
+                                        ],
+                                        "loc": {
+                                            "start": {
+                                                "line": 1,
+                                                "column": 0
+                                            },
+                                            "end": {
+                                                "line": 1,
+                                                "column": 8
+                                            }
+                                        }
+                                    },
+                                    "range": [
+                                        0,
+                                        8
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 0
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 8
+                                        }
+                                    }
+                                }
+                            ],
+                            "sourceType": "script",
+                            "range": [
+                                0,
+                                8
+                            ],
+                            "loc": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 8
+                                }
+                            },
+                            "tokens": [
+                                {
+                                    "type": "String",
+                                    "value": "\"D003895\"",
+                                    "range": [
+                                        0,
+                                        8
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 0
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 8
+                                        }
+                                    }
+                                }
+                            ],
+                            "comments": []
                         }
-                      }
-                    },
-                    "arguments": [],
-                    "optional": false,
-                    "range": [
-                      0,
-                      18
-                    ],
-                    "loc": {
-                      "start": {
-                        "line": 1,
-                        "column": 0
-                      },
-                      "end": {
-                        "line": 1,
-                        "column": 18
-                      }
                     }
-                  },
-                  "range": [
-                    0,
-                    18
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 0
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 18
-                    }
-                  }
-                }
-              ],
-              "sourceType": "script",
-              "range": [
-                0,
-                18
-              ],
-              "loc": {
-                "start": {
-                  "line": 1,
-                  "column": 0
-                },
-                "end": {
-                  "line": 1,
-                  "column": 18
-                }
-              },
-              "tokens": [
-                {
-                  "type": "Identifier",
-                  "value": "CURRENT_DATETIME",
-                  "range": [
-                    0,
-                    16
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 0
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 16
-                    }
-                  }
-                },
-                {
-                  "type": "Punctuator",
-                  "value": "(",
-                  "range": [
-                    16,
-                    17
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 16
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 17
-                    }
-                  }
-                },
-                {
-                  "type": "Punctuator",
-                  "value": ")",
-                  "range": [
-                    17,
-                    18
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 17
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 18
-                    }
-                  }
-                }
-              ],
-              "comments": []
-            }
-          },
-          {
-            "target": "client_id",
-            "originalString": "\"86128710\"",
-            "functionTree": {
-              "type": "Program",
-              "body": [
-                {
-                  "type": "ExpressionStatement",
-                  "expression": {
-                    "type": "Literal",
-                    "value": "86128710",
-                    "raw": "\"86128710\"",
-                    "range": [
-                      0,
-                      8
-                    ],
-                    "loc": {
-                      "start": {
-                        "line": 1,
-                        "column": 0
-                      },
-                      "end": {
-                        "line": 1,
-                        "column": 8
-                      }
-                    }
-                  },
-                  "range": [
-                    0,
-                    8
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 0
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 8
-                    }
-                  }
-                }
-              ],
-              "sourceType": "script",
-              "range": [
-                0,
-                8
-              ],
-              "loc": {
-                "start": {
-                  "line": 1,
-                  "column": 0
-                },
-                "end": {
-                  "line": 1,
-                  "column": 8
-                }
-              },
-              "tokens": [
-                {
-                  "type": "String",
-                  "value": "\"86128710\"",
-                  "range": [
-                    0,
-                    8
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 0
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 8
-                    }
-                  }
-                }
-              ],
-              "comments": []
-            }
-          }
-        ]
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "30.176470588235247 -73.18367346938777"
-    },
-    {
-      "key": "b8eedabf-6387-4540-b946-8bea75a52762",
-      "type": "FUNCTIONS",
-      "category": "FUNCTIONS",
-      "transformationStep": {
-        "id": "b8eedabf-6387-4540-b946-8bea75a52762",
-        "title": "",
-        "transformationType": "FUNCTIONS",
-        "transformObject": [
-          {
-            "target": "loaded_at",
-            "originalString": "CURRENT_DATETIME()",
-            "functionTree": {
-              "type": "Program",
-              "body": [
-                {
-                  "type": "ExpressionStatement",
-                  "expression": {
-                    "type": "CallExpression",
-                    "callee": {
-                      "type": "Identifier",
-                      "name": "CURRENT_DATETIME",
-                      "range": [
-                        0,
-                        16
-                      ],
-                      "loc": {
-                        "start": {
-                          "line": 1,
-                          "column": 0
-                        },
-                        "end": {
-                          "line": 1,
-                          "column": 16
+                ]
+            },
+            "isGroup": true,
+            "group": "",
+            "location": "37.17647058823525 -263.18367346938777"
+        },
+        {
+            "key": "2fec13d9-827d-414a-98ee-5499c85e9469",
+            "type": "FUNCTIONS",
+            "category": "FUNCTIONS",
+            "transformationStep": {
+                "id": "2fec13d9-827d-414a-98ee-5499c85e9469",
+                "title": "",
+                "transformationType": "FUNCTIONS",
+                "transformObject": [
+                    {
+                        "target": "loaded_at",
+                        "originalString": "CURRENT_DATETIME()",
+                        "functionTree": {
+                            "type": "Program",
+                            "body": [
+                                {
+                                    "type": "ExpressionStatement",
+                                    "expression": {
+                                        "type": "CallExpression",
+                                        "callee": {
+                                            "type": "Identifier",
+                                            "name": "CURRENT_DATETIME",
+                                            "range": [
+                                                0,
+                                                16
+                                            ],
+                                            "loc": {
+                                                "start": {
+                                                    "line": 1,
+                                                    "column": 0
+                                                },
+                                                "end": {
+                                                    "line": 1,
+                                                    "column": 16
+                                                }
+                                            }
+                                        },
+                                        "arguments": [],
+                                        "optional": false,
+                                        "range": [
+                                            0,
+                                            18
+                                        ],
+                                        "loc": {
+                                            "start": {
+                                                "line": 1,
+                                                "column": 0
+                                            },
+                                            "end": {
+                                                "line": 1,
+                                                "column": 18
+                                            }
+                                        }
+                                    },
+                                    "range": [
+                                        0,
+                                        18
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 0
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 18
+                                        }
+                                    }
+                                }
+                            ],
+                            "sourceType": "script",
+                            "range": [
+                                0,
+                                18
+                            ],
+                            "loc": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 18
+                                }
+                            },
+                            "tokens": [
+                                {
+                                    "type": "Identifier",
+                                    "value": "CURRENT_DATETIME",
+                                    "range": [
+                                        0,
+                                        16
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 0
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 16
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "Punctuator",
+                                    "value": "(",
+                                    "range": [
+                                        16,
+                                        17
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 16
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 17
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "Punctuator",
+                                    "value": ")",
+                                    "range": [
+                                        17,
+                                        18
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 17
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 18
+                                        }
+                                    }
+                                }
+                            ],
+                            "comments": []
                         }
-                      }
                     },
-                    "arguments": [],
-                    "optional": false,
-                    "range": [
-                      0,
-                      18
-                    ],
-                    "loc": {
-                      "start": {
-                        "line": 1,
-                        "column": 0
-                      },
-                      "end": {
-                        "line": 1,
-                        "column": 18
-                      }
-                    }
-                  },
-                  "range": [
-                    0,
-                    18
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 0
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 18
-                    }
-                  }
-                }
-              ],
-              "sourceType": "script",
-              "range": [
-                0,
-                18
-              ],
-              "loc": {
-                "start": {
-                  "line": 1,
-                  "column": 0
-                },
-                "end": {
-                  "line": 1,
-                  "column": 18
-                }
-              },
-              "tokens": [
-                {
-                  "type": "Identifier",
-                  "value": "CURRENT_DATETIME",
-                  "range": [
-                    0,
-                    16
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 0
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 16
-                    }
-                  }
-                },
-                {
-                  "type": "Punctuator",
-                  "value": "(",
-                  "range": [
-                    16,
-                    17
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 16
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 17
-                    }
-                  }
-                },
-                {
-                  "type": "Punctuator",
-                  "value": ")",
-                  "range": [
-                    17,
-                    18
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 17
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 18
-                    }
-                  }
-                }
-              ],
-              "comments": []
-            }
-          },
-          {
-            "target": "client_id",
-            "originalString": "\"86128710\"",
-            "functionTree": {
-              "type": "Program",
-              "body": [
-                {
-                  "type": "ExpressionStatement",
-                  "expression": {
-                    "type": "Literal",
-                    "value": "86128710",
-                    "raw": "\"86128710\"",
-                    "range": [
-                      0,
-                      8
-                    ],
-                    "loc": {
-                      "start": {
-                        "line": 1,
-                        "column": 0
-                      },
-                      "end": {
-                        "line": 1,
-                        "column": 8
-                      }
-                    }
-                  },
-                  "range": [
-                    0,
-                    8
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 0
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 8
-                    }
-                  }
-                }
-              ],
-              "sourceType": "script",
-              "range": [
-                0,
-                8
-              ],
-              "loc": {
-                "start": {
-                  "line": 1,
-                  "column": 0
-                },
-                "end": {
-                  "line": 1,
-                  "column": 8
-                }
-              },
-              "tokens": [
-                {
-                  "type": "String",
-                  "value": "\"86128710\"",
-                  "range": [
-                    0,
-                    8
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 0
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 8
-                    }
-                  }
-                }
-              ],
-              "comments": []
-            }
-          }
-        ]
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "26.176470588235247 126.81632653061223"
-    },
-    {
-      "key": "3c22a74a-6650-4c36-a025-83548d63db46",
-      "type": "FUNCTIONS",
-      "category": "FUNCTIONS",
-      "transformationStep": {
-        "id": "3c22a74a-6650-4c36-a025-83548d63db46",
-        "title": "",
-        "transformationType": "FUNCTIONS",
-        "transformObject": [
-          {
-            "target": "loaded_at",
-            "originalString": "CURRENT_DATETIME()",
-            "functionTree": {
-              "type": "Program",
-              "body": [
-                {
-                  "type": "ExpressionStatement",
-                  "expression": {
-                    "type": "CallExpression",
-                    "callee": {
-                      "type": "Identifier",
-                      "name": "CURRENT_DATETIME",
-                      "range": [
-                        0,
-                        16
-                      ],
-                      "loc": {
-                        "start": {
-                          "line": 1,
-                          "column": 0
-                        },
-                        "end": {
-                          "line": 1,
-                          "column": 16
+                    {
+                        "target": "client_id",
+                        "originalString": "\"D003895\"",
+                        "functionTree": {
+                            "type": "Program",
+                            "body": [
+                                {
+                                    "type": "ExpressionStatement",
+                                    "expression": {
+                                        "type": "Literal",
+                                        "value": "D003895",
+                                        "raw": "\"D003895\"",
+                                        "range": [
+                                            0,
+                                            8
+                                        ],
+                                        "loc": {
+                                            "start": {
+                                                "line": 1,
+                                                "column": 0
+                                            },
+                                            "end": {
+                                                "line": 1,
+                                                "column": 8
+                                            }
+                                        }
+                                    },
+                                    "range": [
+                                        0,
+                                        8
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 0
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 8
+                                        }
+                                    }
+                                }
+                            ],
+                            "sourceType": "script",
+                            "range": [
+                                0,
+                                8
+                            ],
+                            "loc": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 8
+                                }
+                            },
+                            "tokens": [
+                                {
+                                    "type": "String",
+                                    "value": "\"D003895\"",
+                                    "range": [
+                                        0,
+                                        8
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 0
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 8
+                                        }
+                                    }
+                                }
+                            ],
+                            "comments": []
                         }
-                      }
-                    },
-                    "arguments": [],
-                    "optional": false,
-                    "range": [
-                      0,
-                      18
-                    ],
-                    "loc": {
-                      "start": {
-                        "line": 1,
-                        "column": 0
-                      },
-                      "end": {
-                        "line": 1,
-                        "column": 18
-                      }
                     }
-                  },
-                  "range": [
-                    0,
-                    18
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 0
+                ]
+            },
+            "isGroup": true,
+            "group": "",
+            "location": "30.176470588235247 -73.18367346938777"
+        },
+        {
+            "key": "b8eedabf-6387-4540-b946-8bea75a52762",
+            "type": "FUNCTIONS",
+            "category": "FUNCTIONS",
+            "transformationStep": {
+                "id": "b8eedabf-6387-4540-b946-8bea75a52762",
+                "title": "",
+                "transformationType": "FUNCTIONS",
+                "transformObject": [
+                    {
+                        "target": "loaded_at",
+                        "originalString": "CURRENT_DATETIME()",
+                        "functionTree": {
+                            "type": "Program",
+                            "body": [
+                                {
+                                    "type": "ExpressionStatement",
+                                    "expression": {
+                                        "type": "CallExpression",
+                                        "callee": {
+                                            "type": "Identifier",
+                                            "name": "CURRENT_DATETIME",
+                                            "range": [
+                                                0,
+                                                16
+                                            ],
+                                            "loc": {
+                                                "start": {
+                                                    "line": 1,
+                                                    "column": 0
+                                                },
+                                                "end": {
+                                                    "line": 1,
+                                                    "column": 16
+                                                }
+                                            }
+                                        },
+                                        "arguments": [],
+                                        "optional": false,
+                                        "range": [
+                                            0,
+                                            18
+                                        ],
+                                        "loc": {
+                                            "start": {
+                                                "line": 1,
+                                                "column": 0
+                                            },
+                                            "end": {
+                                                "line": 1,
+                                                "column": 18
+                                            }
+                                        }
+                                    },
+                                    "range": [
+                                        0,
+                                        18
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 0
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 18
+                                        }
+                                    }
+                                }
+                            ],
+                            "sourceType": "script",
+                            "range": [
+                                0,
+                                18
+                            ],
+                            "loc": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 18
+                                }
+                            },
+                            "tokens": [
+                                {
+                                    "type": "Identifier",
+                                    "value": "CURRENT_DATETIME",
+                                    "range": [
+                                        0,
+                                        16
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 0
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 16
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "Punctuator",
+                                    "value": "(",
+                                    "range": [
+                                        16,
+                                        17
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 16
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 17
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "Punctuator",
+                                    "value": ")",
+                                    "range": [
+                                        17,
+                                        18
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 17
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 18
+                                        }
+                                    }
+                                }
+                            ],
+                            "comments": []
+                        }
                     },
-                    "end": {
-                      "line": 1,
-                      "column": 18
+                    {
+                        "target": "client_id",
+                        "originalString": "\"D003895\"",
+                        "functionTree": {
+                            "type": "Program",
+                            "body": [
+                                {
+                                    "type": "ExpressionStatement",
+                                    "expression": {
+                                        "type": "Literal",
+                                        "value": "D003895",
+                                        "raw": "\"D003895\"",
+                                        "range": [
+                                            0,
+                                            8
+                                        ],
+                                        "loc": {
+                                            "start": {
+                                                "line": 1,
+                                                "column": 0
+                                            },
+                                            "end": {
+                                                "line": 1,
+                                                "column": 8
+                                            }
+                                        }
+                                    },
+                                    "range": [
+                                        0,
+                                        8
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 0
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 8
+                                        }
+                                    }
+                                }
+                            ],
+                            "sourceType": "script",
+                            "range": [
+                                0,
+                                8
+                            ],
+                            "loc": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 8
+                                }
+                            },
+                            "tokens": [
+                                {
+                                    "type": "String",
+                                    "value": "\"D003895\"",
+                                    "range": [
+                                        0,
+                                        8
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 0
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 8
+                                        }
+                                    }
+                                }
+                            ],
+                            "comments": []
+                        }
                     }
-                  }
+                ]
+            },
+            "isGroup": true,
+            "group": "",
+            "location": "26.176470588235247 126.81632653061223"
+        },
+        {
+            "key": "3c22a74a-6650-4c36-a025-83548d63db46",
+            "type": "FUNCTIONS",
+            "category": "FUNCTIONS",
+            "transformationStep": {
+                "id": "3c22a74a-6650-4c36-a025-83548d63db46",
+                "title": "",
+                "transformationType": "FUNCTIONS",
+                "transformObject": [
+                    {
+                        "target": "loaded_at",
+                        "originalString": "CURRENT_DATETIME()",
+                        "functionTree": {
+                            "type": "Program",
+                            "body": [
+                                {
+                                    "type": "ExpressionStatement",
+                                    "expression": {
+                                        "type": "CallExpression",
+                                        "callee": {
+                                            "type": "Identifier",
+                                            "name": "CURRENT_DATETIME",
+                                            "range": [
+                                                0,
+                                                16
+                                            ],
+                                            "loc": {
+                                                "start": {
+                                                    "line": 1,
+                                                    "column": 0
+                                                },
+                                                "end": {
+                                                    "line": 1,
+                                                    "column": 16
+                                                }
+                                            }
+                                        },
+                                        "arguments": [],
+                                        "optional": false,
+                                        "range": [
+                                            0,
+                                            18
+                                        ],
+                                        "loc": {
+                                            "start": {
+                                                "line": 1,
+                                                "column": 0
+                                            },
+                                            "end": {
+                                                "line": 1,
+                                                "column": 18
+                                            }
+                                        }
+                                    },
+                                    "range": [
+                                        0,
+                                        18
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 0
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 18
+                                        }
+                                    }
+                                }
+                            ],
+                            "sourceType": "script",
+                            "range": [
+                                0,
+                                18
+                            ],
+                            "loc": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 18
+                                }
+                            },
+                            "tokens": [
+                                {
+                                    "type": "Identifier",
+                                    "value": "CURRENT_DATETIME",
+                                    "range": [
+                                        0,
+                                        16
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 0
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 16
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "Punctuator",
+                                    "value": "(",
+                                    "range": [
+                                        16,
+                                        17
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 16
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 17
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "Punctuator",
+                                    "value": ")",
+                                    "range": [
+                                        17,
+                                        18
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 17
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 18
+                                        }
+                                    }
+                                }
+                            ],
+                            "comments": []
+                        }
+                    },
+                    {
+                        "target": "client_id",
+                        "originalString": "\"D003895\"",
+                        "functionTree": {
+                            "type": "Program",
+                            "body": [
+                                {
+                                    "type": "ExpressionStatement",
+                                    "expression": {
+                                        "type": "Literal",
+                                        "value": "D003895",
+                                        "raw": "\"D003895\"",
+                                        "range": [
+                                            0,
+                                            8
+                                        ],
+                                        "loc": {
+                                            "start": {
+                                                "line": 1,
+                                                "column": 0
+                                            },
+                                            "end": {
+                                                "line": 1,
+                                                "column": 8
+                                            }
+                                        }
+                                    },
+                                    "range": [
+                                        0,
+                                        8
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 0
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 8
+                                        }
+                                    }
+                                }
+                            ],
+                            "sourceType": "script",
+                            "range": [
+                                0,
+                                8
+                            ],
+                            "loc": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 8
+                                }
+                            },
+                            "tokens": [
+                                {
+                                    "type": "String",
+                                    "value": "\"D003895\"",
+                                    "range": [
+                                        0,
+                                        8
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 0
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 8
+                                        }
+                                    }
+                                }
+                            ],
+                            "comments": []
+                        }
+                    }
+                ]
+            },
+            "isGroup": true,
+            "group": "",
+            "location": "46.17647058823525 298.81632653061223"
+        },
+        {
+            "key": "30b3db06-f674-4802-916c-4190a5027137",
+            "type": "OUTPUT",
+            "category": "OUTPUT",
+            "transformationStep": {
+                "id": "30b3db06-f674-4802-916c-4190a5027137",
+                "title": "y42_client_google_ads_ad_group_ad_report_conversion_metrics",
+                "transformationType": "OUTPUT",
+                "transformObject": {
+                    "name": "y42_client_google_ads_ad_group_ad_report_conversion_metrics",
+                    "fields": [
+                        {
+                            "target": "ad_id",
+                            "source": "ad_id",
+                            "type": "NUMERIC",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "resource_name",
+                            "source": "resource_name",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "conversion_action",
+                            "source": "conversion_action",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "conversion_action_category",
+                            "source": "conversion_action_category",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "date",
+                            "source": "date",
+                            "type": "DATE",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "conversions",
+                            "source": "conversions",
+                            "type": "FLOAT",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "conversions_value",
+                            "source": "conversions_value",
+                            "type": "FLOAT",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "loaded_at",
+                            "source": "loaded_at",
+                            "type": "DATETIME",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "client_id",
+                            "source": "client_id",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": true
+                        }
+                    ]
                 }
-              ],
-              "sourceType": "script",
-              "range": [
-                0,
-                18
-              ],
-              "loc": {
-                "start": {
-                  "line": 1,
-                  "column": 0
-                },
-                "end": {
-                  "line": 1,
-                  "column": 18
+            },
+            "isGroup": true,
+            "group": "",
+            "location": "312.03089096966914 -262.40816326530614"
+        },
+        {
+            "key": "c88d59a1-272c-4404-bd42-305d713c51e0",
+            "type": "OUTPUT",
+            "category": "OUTPUT",
+            "transformationStep": {
+                "id": "c88d59a1-272c-4404-bd42-305d713c51e0",
+                "title": "y42_google_ads_campaign",
+                "transformationType": "OUTPUT",
+                "transformObject": {
+                    "name": "y42_google_ads_campaign",
+                    "fields": [
+                        {
+                            "target": "advertising_channel_sub_type",
+                            "source": "advertising_channel_sub_type",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "advertising_channel_type",
+                            "source": "advertising_channel_type",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "bidding_strategy",
+                            "source": "bidding_strategy",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "bidding_strategy_type",
+                            "source": "bidding_strategy_type",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "campaign_budget",
+                            "source": "campaign_budget",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "id",
+                            "source": "id",
+                            "type": "NUMERIC",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "name",
+                            "source": "name",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "resource_name",
+                            "source": "resource_name",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "status",
+                            "source": "status",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "loaded_at",
+                            "source": "loaded_at",
+                            "type": "DATETIME",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "client_id",
+                            "source": "client_id",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": true
+                        }
+                    ]
                 }
-              },
-              "tokens": [
-                {
-                  "type": "Identifier",
-                  "value": "CURRENT_DATETIME",
-                  "range": [
-                    0,
-                    16
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 0
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 16
-                    }
-                  }
-                },
-                {
-                  "type": "Punctuator",
-                  "value": "(",
-                  "range": [
-                    16,
-                    17
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 16
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 17
-                    }
-                  }
-                },
-                {
-                  "type": "Punctuator",
-                  "value": ")",
-                  "range": [
-                    17,
-                    18
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 17
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 18
-                    }
-                  }
+            },
+            "isGroup": true,
+            "group": "",
+            "location": "323.08971449908086 -68.16326530612247"
+        },
+        {
+            "key": "6792951c-9603-40c4-a172-bd3faa087b6e",
+            "type": "OUTPUT",
+            "category": "OUTPUT",
+            "transformationStep": {
+                "id": "6792951c-9603-40c4-a172-bd3faa087b6e",
+                "title": "y42_google_ads_ad_metrics",
+                "transformationType": "OUTPUT",
+                "transformObject": {
+                    "name": "y42_google_ads_ad_metrics",
+                    "fields": [
+                        {
+                            "target": "campaign_id",
+                            "source": "campaign_id",
+                            "type": "NUMERIC",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "campaign_name",
+                            "source": "campaign_name",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "ad_group_id",
+                            "source": "ad_group_id",
+                            "type": "NUMERIC",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "ad_group_name",
+                            "source": "ad_group_name",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "ad_id",
+                            "source": "ad_id",
+                            "type": "NUMERIC",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "ad_name",
+                            "source": "ad_name",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "ad_type",
+                            "source": "ad_type",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "resource_name",
+                            "source": "resource_name",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "date",
+                            "source": "date",
+                            "type": "DATE",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "clicks",
+                            "source": "clicks",
+                            "type": "NUMERIC",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "cost_micros",
+                            "source": "cost_micros",
+                            "type": "NUMERIC",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "impressions",
+                            "source": "impressions",
+                            "type": "NUMERIC",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "loaded_at",
+                            "source": "loaded_at",
+                            "type": "DATETIME",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "client_id",
+                            "source": "client_id",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": true
+                        }
+                    ]
                 }
-              ],
-              "comments": []
-            }
-          },
-          {
-            "target": "client_id",
-            "originalString": "\"86128710\"",
-            "functionTree": {
-              "type": "Program",
-              "body": [
-                {
-                  "type": "ExpressionStatement",
-                  "expression": {
-                    "type": "Literal",
-                    "value": "86128710",
-                    "raw": "\"86128710\"",
-                    "range": [
-                      0,
-                      8
-                    ],
-                    "loc": {
-                      "start": {
-                        "line": 1,
-                        "column": 0
-                      },
-                      "end": {
-                        "line": 1,
-                        "column": 8
-                      }
-                    }
-                  },
-                  "range": [
-                    0,
-                    8
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 0
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 8
-                    }
-                  }
+            },
+            "isGroup": true,
+            "group": "",
+            "location": "347.2073615579044 145.42857142857144"
+        },
+        {
+            "key": "20b7ac04-244f-4f76-a9ce-2ef6f8c281bb",
+            "type": "OUTPUT",
+            "category": "OUTPUT",
+            "transformationStep": {
+                "id": "20b7ac04-244f-4f76-a9ce-2ef6f8c281bb",
+                "title": "y42_google_ads_customer_client_ad_metrics",
+                "transformationType": "OUTPUT",
+                "transformObject": {
+                    "name": "y42_google_ads_1",
+                    "fields": [
+                        {
+                            "target": "currency_code",
+                            "source": "currency_code",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "descriptive_name",
+                            "source": "descriptive_name",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "resource_name",
+                            "source": "resource_name",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "status",
+                            "source": "status",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "test_account",
+                            "source": "test_account",
+                            "type": "BOOLEAN",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "time_zone",
+                            "source": "time_zone",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "loaded_at",
+                            "source": "loaded_at",
+                            "type": "DATETIME",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": false
+                        },
+                        {
+                            "target": "client_id",
+                            "source": "client_id",
+                            "type": "STRING",
+                            "display": true,
+                            "changed": false,
+                            "description": "",
+                            "source_alias": "",
+                            "applied": false,
+                            "sourceTypeChanged": true
+                        }
+                    ]
                 }
-              ],
-              "sourceType": "script",
-              "range": [
-                0,
-                8
-              ],
-              "loc": {
-                "start": {
-                  "line": 1,
-                  "column": 0
-                },
-                "end": {
-                  "line": 1,
-                  "column": 8
-                }
-              },
-              "tokens": [
-                {
-                  "type": "String",
-                  "value": "\"86128710\"",
-                  "range": [
-                    0,
-                    8
-                  ],
-                  "loc": {
-                    "start": {
-                      "line": 1,
-                      "column": 0
-                    },
-                    "end": {
-                      "line": 1,
-                      "column": 8
-                    }
-                  }
-                }
-              ],
-              "comments": []
-            }
-          }
-        ]
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "46.17647058823525 298.81632653061223"
-    },
-    {
-      "key": "30b3db06-f674-4802-916c-4190a5027137",
-      "type": "OUTPUT",
-      "category": "OUTPUT",
-      "transformationStep": {
-        "id": "30b3db06-f674-4802-916c-4190a5027137",
-        "title": "y42_client_google_ads_ad_group_ad_report_conversion_metrics",
-        "transformationType": "OUTPUT",
-        "transformObject": {
-          "name": "y42_client_google_ads_ad_group_ad_report_conversion_metrics",
-          "fields": [
-            {
-              "target": "ad_id",
-              "source": "ad_id",
-              "type": "NUMERIC",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
             },
-            {
-              "target": "resource_name",
-              "source": "resource_name",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "conversion_action",
-              "source": "conversion_action",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "conversion_action_category",
-              "source": "conversion_action_category",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "date",
-              "source": "date",
-              "type": "DATE",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "conversions",
-              "source": "conversions",
-              "type": "FLOAT",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "conversions_value",
-              "source": "conversions_value",
-              "type": "FLOAT",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "loaded_at",
-              "source": "loaded_at",
-              "type": "DATETIME",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "client_id",
-              "source": "client_id",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": true
-            }
-          ]
+            "isGroup": true,
+            "group": "",
+            "location": "357.8544203814338 300.1836734693877"
         }
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "312.03089096966914 -262.40816326530614"
-    },
-    {
-      "key": "c88d59a1-272c-4404-bd42-305d713c51e0",
-      "type": "OUTPUT",
-      "category": "OUTPUT",
-      "transformationStep": {
-        "id": "c88d59a1-272c-4404-bd42-305d713c51e0",
-        "title": "y42_google_ads_campaign",
-        "transformationType": "OUTPUT",
-        "transformObject": {
-          "name": "y42_google_ads_campaign",
-          "fields": [
-            {
-              "target": "advertising_channel_sub_type",
-              "source": "advertising_channel_sub_type",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "advertising_channel_type",
-              "source": "advertising_channel_type",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "bidding_strategy",
-              "source": "bidding_strategy",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "bidding_strategy_type",
-              "source": "bidding_strategy_type",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "campaign_budget",
-              "source": "campaign_budget",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "id",
-              "source": "id",
-              "type": "NUMERIC",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "name",
-              "source": "name",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "resource_name",
-              "source": "resource_name",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "status",
-              "source": "status",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "loaded_at",
-              "source": "loaded_at",
-              "type": "DATETIME",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "client_id",
-              "source": "client_id",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": true
-            }
-          ]
+    ],
+    "linkDataArray": [
+        {
+            "from": "6746876b-e56c-4b26-920f-b630f1432b02",
+            "to": "a988322b-d822-4692-acf1-a4925ac0b357"
+        },
+        {
+            "from": "c3ab184b-cf3e-48ae-9cd7-22d2862a30fa",
+            "to": "2fec13d9-827d-414a-98ee-5499c85e9469"
+        },
+        {
+            "from": "c5104bed-cc95-4798-9ab3-d07022d584de",
+            "to": "b8eedabf-6387-4540-b946-8bea75a52762"
+        },
+        {
+            "from": "51a8d007-186f-459e-9cab-ff317a9f915b",
+            "to": "3c22a74a-6650-4c36-a025-83548d63db46"
+        },
+        {
+            "from": "a988322b-d822-4692-acf1-a4925ac0b357",
+            "to": "30b3db06-f674-4802-916c-4190a5027137"
+        },
+        {
+            "from": "2fec13d9-827d-414a-98ee-5499c85e9469",
+            "to": "c88d59a1-272c-4404-bd42-305d713c51e0"
+        },
+        {
+            "from": "b8eedabf-6387-4540-b946-8bea75a52762",
+            "to": "6792951c-9603-40c4-a172-bd3faa087b6e"
+        },
+        {
+            "from": "3c22a74a-6650-4c36-a025-83548d63db46",
+            "to": "20b7ac04-244f-4f76-a9ce-2ef6f8c281bb"
         }
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "323.08971449908086 -68.16326530612247"
-    },
-    {
-      "key": "6792951c-9603-40c4-a172-bd3faa087b6e",
-      "type": "OUTPUT",
-      "category": "OUTPUT",
-      "transformationStep": {
-        "id": "6792951c-9603-40c4-a172-bd3faa087b6e",
-        "title": "y42_google_ads_ad_metrics",
-        "transformationType": "OUTPUT",
-        "transformObject": {
-          "name": "y42_google_ads_ad_metrics",
-          "fields": [
-            {
-              "target": "campaign_id",
-              "source": "campaign_id",
-              "type": "NUMERIC",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "campaign_name",
-              "source": "campaign_name",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "ad_group_id",
-              "source": "ad_group_id",
-              "type": "NUMERIC",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "ad_group_name",
-              "source": "ad_group_name",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "ad_id",
-              "source": "ad_id",
-              "type": "NUMERIC",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "ad_name",
-              "source": "ad_name",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "ad_type",
-              "source": "ad_type",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "resource_name",
-              "source": "resource_name",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "date",
-              "source": "date",
-              "type": "DATE",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "clicks",
-              "source": "clicks",
-              "type": "NUMERIC",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "cost_micros",
-              "source": "cost_micros",
-              "type": "NUMERIC",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "impressions",
-              "source": "impressions",
-              "type": "NUMERIC",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "loaded_at",
-              "source": "loaded_at",
-              "type": "DATETIME",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "client_id",
-              "source": "client_id",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": true
-            }
-          ]
-        }
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "347.2073615579044 145.42857142857144"
-    },
-    {
-      "key": "20b7ac04-244f-4f76-a9ce-2ef6f8c281bb",
-      "type": "OUTPUT",
-      "category": "OUTPUT",
-      "transformationStep": {
-        "id": "20b7ac04-244f-4f76-a9ce-2ef6f8c281bb",
-        "title": "y42_google_ads_customer_client_ad_metrics",
-        "transformationType": "OUTPUT",
-        "transformObject": {
-          "name": "y42_google_ads_1",
-          "fields": [
-            {
-              "target": "currency_code",
-              "source": "currency_code",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "descriptive_name",
-              "source": "descriptive_name",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "resource_name",
-              "source": "resource_name",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "status",
-              "source": "status",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "test_account",
-              "source": "test_account",
-              "type": "BOOLEAN",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "time_zone",
-              "source": "time_zone",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "loaded_at",
-              "source": "loaded_at",
-              "type": "DATETIME",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "client_id",
-              "source": "client_id",
-              "type": "STRING",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": true
-            }
-          ]
-        }
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "357.8544203814338 300.1836734693877"
-    }
-  ],
-  "linkDataArray": [
-    {
-      "from": "6746876b-e56c-4b26-920f-b630f1432b02",
-      "to": "a988322b-d822-4692-acf1-a4925ac0b357"
-    },
-    {
-      "from": "c3ab184b-cf3e-48ae-9cd7-22d2862a30fa",
-      "to": "2fec13d9-827d-414a-98ee-5499c85e9469"
-    },
-    {
-      "from": "c5104bed-cc95-4798-9ab3-d07022d584de",
-      "to": "b8eedabf-6387-4540-b946-8bea75a52762"
-    },
-    {
-      "from": "51a8d007-186f-459e-9cab-ff317a9f915b",
-      "to": "3c22a74a-6650-4c36-a025-83548d63db46"
-    },
-    {
-      "from": "a988322b-d822-4692-acf1-a4925ac0b357",
-      "to": "30b3db06-f674-4802-916c-4190a5027137"
-    },
-    {
-      "from": "2fec13d9-827d-414a-98ee-5499c85e9469",
-      "to": "c88d59a1-272c-4404-bd42-305d713c51e0"
-    },
-    {
-      "from": "b8eedabf-6387-4540-b946-8bea75a52762",
-      "to": "6792951c-9603-40c4-a172-bd3faa087b6e"
-    },
-    {
-      "from": "3c22a74a-6650-4c36-a025-83548d63db46",
-      "to": "20b7ac04-244f-4f76-a9ce-2ef6f8c281bb"
-    }
-  ],
-  "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
+    ],
+    "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
