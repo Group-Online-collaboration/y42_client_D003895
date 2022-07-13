@@ -1,0 +1,15 @@
+{
+  "$schema": "https://s.y42.com/integrations/google-ads/0.0.0/table",
+  "columns": [
+    "advertising_channel_sub_type",
+    "advertising_channel_type",
+    "bidding_strategy",
+    "bidding_strategy_type",
+    "campaign_budget",
+    "id",
+    "name",
+    "resource_name",
+    "status"
+  ],
+  "import": "campaign"
+}
