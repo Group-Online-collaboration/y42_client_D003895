@@ -1,6 +1,6 @@
 {
   "request_id": "220713083942_7e16578f-fe5a-5a85-8f98-37ec865ae4cc",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "42496991-100f-469a-87d0-4175f023bd63",
     "source_settings": {
@@ -34,5 +34,88 @@
     }
   },
   "created_at": "2022-07-13T08:39:42.885779+00:00",
-  "_signature": "8xF7SitVOIMr+fnSs+krLncx/zBDxu6xMdSpvR/fNMlKMKAYv1KViT4CNbXJMA0ijU6zh9V/7FdlYD0VJwAOAg=="
+  "finished_at": "2022-07-13T08:40:15.901701+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-13T08:40:15.901501+00:00",
+    "row_count": 349,
+    "current_import_row_count": 349,
+    "size_in_bytes": 10752,
+    "external_id": "01a59348-0101-52b4-0001-2c9200a82e72",
+    "columns": [
+      {
+        "field_name": "ad_group_name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ad_group_id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "campaign_name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ad_id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "resource_name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "date",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "loaded_at",
+        "data_type": "TIMESTAMP_LTZ",
+        "external_data_type": "TIMESTAMP_LTZ"
+      },
+      {
+        "field_name": "campaign_id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "client_id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ad_name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ad_type",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "cost_micros",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      }
+    ],
+    "table_name": "220713083942_7e16578f-fe5a-5a85-8f98-37ec865ae4cc",
+    "external_url": "https://leailmf-bb09357.snowflakecomputing.com/console#/data/tables/detail?databaseName=Y42_DATA&schemaName=PUBLIC&tableName=220713083942_7e16578f-fe5a-5a85-8f98-37ec865ae4cc"
+  },
+  "_signature": "a1W56I0BAFRPmCiOqqSTc5gPcWCeXeNWZU6Cpv4M0Ib1LJLNqKSkMyY0b/Yin/Pt8lbPUNwjKz+kdWTmNB0uAQ=="
 }
