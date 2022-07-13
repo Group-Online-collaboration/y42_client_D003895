@@ -1,0 +1,106 @@
+{
+  "request_id": "220713083831_1f0914a0-2e5d-5d19-9fe2-85cf228f7968",
+  "status": "ready",
+  "request": {
+    "source_credentials": "9f636938-9602-43cb-917d-5e0ea3293f2a",
+    "target_credentials": "42496991-100f-469a-87d0-4175f023bd63",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/google-ads/0.0.0/source.json",
+      "start_date": "2022-01-01T00:00:00Z",
+      "parent_id": "customers/1209542642/customerClients/1805925190"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/google-ads/0.0.0/table",
+      "columns": [
+        "ad_id",
+        "resource_name",
+        "conversion_action",
+        "conversion_action_category",
+        "date",
+        "conversions",
+        "conversions_value"
+      ],
+      "import": "ad_group_ad_report"
+    },
+    "created_at": "2022-07-13T08:38:31.673173+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/Google_Ads___Conversion_Metrics/ad_group_ad_report/",
+        "id": "5:24c01b17-785a-4dbb-a0b0-3b18f98e5455",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "25917863",
+        "owner": "Group-Online-collaboration",
+        "repo": "y42_client_D003895",
+        "commit_sha": "8bc14eee73963442cd31386fa60cbb8d89eb91e5"
+      }
+    },
+    "context": {
+      "company_id": 5,
+      "company_slug": "grouponline",
+      "triggered_by_type": "user",
+      "triggered_by_id": "25",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-13T08:38:31.673173+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-13T08:39:17.069149+00:00",
+    "external_state": {
+      "1805925190": "2022-06-22",
+      "schema_hash": "d1577968298d37bfcb7d972425e78768"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a59347-0101-52b4-0001-2c9200a82e56",
+    "storage_file": "azure://y42snowflake.blob.core.windows.net/y42-container/userUploads/v2/tap-google-ads/6e101cc5-a402-4b9c-b1a1-7e1fad19b2f9",
+    "partial": false,
+    "import_finished_at": "2022-07-13T08:39:29.716416+00:00",
+    "row_count": 8,
+    "current_import_row_count": 8,
+    "size_in_bytes": 3072,
+    "columns": [
+      {
+        "field_name": "conversions_value",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "conversion_action",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "conversion_action_category",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "conversions",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "ad_id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "date",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "resource_name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220713083831_1f0914a0-2e5d-5d19-9fe2-85cf228f7968",
+    "external_url": "https://leailmf-bb09357.snowflakecomputing.com/console#/data/tables/detail?databaseName=Y42_DATA&schemaName=PUBLIC&tableName=220713083831_1f0914a0-2e5d-5d19-9fe2-85cf228f7968"
+  },
+  "finished_at": "2022-07-13T08:39:29.716562+00:00",
+  "_signature": "bphPQhmuohDUiR1ltFQE95JqrS0ATjU58vMg0xuCGypJLAjSKeQItGivMDP2Xz9DltD0cXpBG7Fj1prvNo58Cg=="
+}
