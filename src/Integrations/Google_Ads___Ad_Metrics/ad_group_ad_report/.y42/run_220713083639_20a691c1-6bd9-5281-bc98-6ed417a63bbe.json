@@ -1,0 +1,55 @@
+{
+  "request_id": "220713083639_20a691c1-6bd9-5281-bc98-6ed417a63bbe",
+  "status": "pending",
+  "request": {
+    "source_credentials": "437b488d-315c-4b81-b39e-a0eeb1fd35a8",
+    "target_credentials": "42496991-100f-469a-87d0-4175f023bd63",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/google-ads/0.0.0/source.json",
+      "start_date": "2022-01-01T00:00:00Z",
+      "parent_id": "customers/1209542642/customerClients/1805925190"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/google-ads/0.0.0/table",
+      "columns": [
+        "campaign_id",
+        "campaign_name",
+        "ad_group_id",
+        "ad_group_name",
+        "ad_id",
+        "ad_name",
+        "ad_type",
+        "resource_name",
+        "date",
+        "clicks",
+        "cost_micros",
+        "impressions"
+      ],
+      "import": "ad_group_ad_report"
+    },
+    "created_at": "2022-07-13T08:36:39.156994+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/Google_Ads___Ad_Metrics/ad_group_ad_report/",
+        "id": "5:24c01b17-785a-4dbb-a0b0-3b18f98e5455",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "25917863",
+        "owner": "Group-Online-collaboration",
+        "repo": "y42_client_D003895",
+        "commit_sha": "4df90bfb00c72a36526a7ed666cd41f9d8f9f9aa"
+      }
+    },
+    "context": {
+      "company_id": 5,
+      "company_slug": "grouponline",
+      "triggered_by_type": "user",
+      "triggered_by_id": "25",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-13T08:36:39.156994+00:00",
+  "_signature": "xaFpBaA7Zh2f5ZvcbvdQ2v29ngxUMWM5vOtLIcZrvNYxd+2oTQrCqW0I7tlAYeQy1NZXGiokXlBHhRBwUpjHCw=="
+}
