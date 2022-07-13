@@ -1,3 +1,5 @@
 {
-  "$schema": "https://s.y42.com/integrations/google-ads/0.0.0/source.json"
+    "$schema": "https://s.y42.com/integrations/google-ads/0.0.0/source.json",
+    "start_date": "2022-01-01T00:00:00Z",
+    "parent_id": "customers/1209542642/customerClients/1805925190"
 }
