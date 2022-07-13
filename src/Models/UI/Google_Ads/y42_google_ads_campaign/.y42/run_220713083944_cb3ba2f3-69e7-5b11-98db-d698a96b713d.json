@@ -1,0 +1,106 @@
+{
+  "request_id": "220713083944_cb3ba2f3-69e7-5b11-98db-d698a96b713d",
+  "status": "ready",
+  "request": {
+    "target_credentials": "42496991-100f-469a-87d0-4175f023bd63",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "c88d59a1-272c-4404-bd42-305d713c51e0"
+    },
+    "created_at": "2022-07-13T08:39:44.129809+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/Google_Ads/y42_google_ads_campaign/",
+        "id": "5:24c01b17-785a-4dbb-a0b0-3b18f98e5455",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "25917863",
+        "owner": "Group-Online-collaboration",
+        "repo": "y42_client_D003895",
+        "commit_sha": "a3126d39551933ebc84277275de86033bee6b774"
+      }
+    },
+    "context": {
+      "company_id": 5,
+      "company_slug": "grouponline",
+      "triggered_by_type": "user",
+      "triggered_by_id": "25",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-13T08:39:44.129809+00:00",
+  "finished_at": "2022-07-13T08:40:23.156699+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-13T08:40:23.156493+00:00",
+    "row_count": 5,
+    "current_import_row_count": 5,
+    "size_in_bytes": 3584,
+    "external_id": "01a59348-0101-52b4-0001-2c9200a82e76",
+    "columns": [
+      {
+        "field_name": "advertising_channel_type",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "advertising_channel_sub_type",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "resource_name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "client_id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "loaded_at",
+        "data_type": "TIMESTAMP_LTZ",
+        "external_data_type": "TIMESTAMP_LTZ"
+      },
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "bidding_strategy",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "status",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "bidding_strategy_type",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "campaign_budget",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220713083944_cb3ba2f3-69e7-5b11-98db-d698a96b713d",
+    "external_url": "https://leailmf-bb09357.snowflakecomputing.com/console#/data/tables/detail?databaseName=Y42_DATA&schemaName=PUBLIC&tableName=220713083944_cb3ba2f3-69e7-5b11-98db-d698a96b713d"
+  },
+  "_signature": "DFj2+zrKchobOQ5qZmjKxOaHU/6CQu9DnR/IbLYHIBEwZUrIHObjabg0JXPMngYkS0eVchZWxZxZtU8iXPwGBw=="
+}
